@@ -55,4 +55,5 @@
             <appender-ref ref="PROD_FILE" />
         </root>
     </springProfile>
+    <logger name="org.springframework.jdbc.core.JdbcTemplate" level="debug"/>
 </configuration>
